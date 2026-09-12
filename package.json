@@ -1,11 +1,14 @@
 {
   "name": "static-web-app-lab4",
   "version": "1.0.0",
-  "description": "Attackercontrolled repo for the Static Web App writeprivilege lab",
-  "main": "",
+  "description": "Static Web App write-privilege lab",
+  "private": true,
   "scripts": {
-    "build": "mkdir -p build && cp -r src/* build/",
+    "build": "rm -rf build && mkdir -p build && cp -r src/* build/",
     "start": "sirv ./build --single --port 8000"
+  },
+  "devDependencies": {
+    "sirv-cli": "^2.0.2"
   },
   "author": "me",
   "license": "MIT"
