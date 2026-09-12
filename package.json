@@ -7,6 +7,6 @@
     "build": "mkdir -p build && cp -r src/* build/",
     "start": "sirv ./build --single --port 8000"
   },
-  "author": "",
+  "author": "me",
   "license": "MIT"
 }
